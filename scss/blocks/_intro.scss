@@ -1,0 +1,44 @@
+.intro { 
+    background: url("../../img/intro-bg.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.intro__color {
+    background-color: #1E2E3D;
+}
+
+.intro__heading {
+    font-style: italic;
+    font-weight: 999;
+    width: 685px;
+    font-size: 64px;
+    line-height: 77px;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    padding-top: 182px;
+    margin-bottom: 52px;
+    color: #ffffff;
+}
+
+.intro__heading-yellow {
+    color: #EECE21;
+}
+.intro__title {
+    font-weight: 500;
+    width: 635px;
+    font-size: 48px;
+    line-height: 63px;
+    color: #ffffff;
+    padding-bottom: 335px;
+}
+.intro__title-yellow {
+    margin: 0;
+    padding: 0;
+    color: #EECE21;
+    font-weight: 500;
+    width: 615px;
+    font-size: 43px;
+    line-height: 63px;
+}
