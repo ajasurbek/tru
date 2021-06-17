@@ -68,6 +68,9 @@
    }
 }
 @media screen and (max-width: 770px) {
+    .intro {
+        display: none;
+    }
     .intro__heading {
      max-width: 600px;
      font-size: 55px;
