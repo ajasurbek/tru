@@ -2654,6 +2654,9 @@ input[type="datetime-local"]::-webkit-calendar-picker-indicator {
   .form__left {
     margin-right: 50px;
   }
+  .form {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 780px) {
