@@ -368,6 +368,9 @@ input[type="datetime-local"]::-webkit-calendar-picker-indicator {
     .form__right-section {
         display: none;
     }
+    // .form__heading {
+    //     display: none;
+    // }
     .form__section {
         display: flex;
     }
@@ -387,18 +390,19 @@ input[type="datetime-local"]::-webkit-calendar-picker-indicator {
     }
 }
 @media screen and (max-width: 830px) {
-    .form__left {
-        margin-right: 50px;
-    }
-    .form {
-        display: none;
-    }
+   
+//   .form__left {
+//       display: none;
+//   }
 }
 @media screen and (max-width: 780px) {
     .form__section {
         flex-direction: column;
         margin-right: auto;
         margin-left: auto;
+    }
+     .form__left {
+        margin: 0;
     }
     .form__left {
         margin-bottom: 50px;
@@ -437,7 +441,7 @@ input[type="datetime-local"]::-webkit-calendar-picker-indicator {
     .form__heading {
         font-size: 24px;
         line-height: 34px;
-        width: 310px;
+        width: 300px;
     }
     .input__form {
         width: 300px;
