@@ -2650,6 +2650,12 @@ input[type="datetime-local"]::-webkit-calendar-picker-indicator {
   }
 }
 
+@media screen and (max-width: 830px) {
+  .form__left {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 780px) {
   .form__section {
     -webkit-box-orient: vertical;
@@ -2734,7 +2740,7 @@ input[type="datetime-local"]::-webkit-calendar-picker-indicator {
   .form__heading {
     font-size: 24px;
     line-height: 34px;
-    width: 250px;
+    width: 295px;
   }
 }
 
