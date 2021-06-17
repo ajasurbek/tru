@@ -1,47 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uz">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Truck</title>
   <link rel="stylesheet" href="css/main.css">
 </head>
-<body class="body">
-  
-  <header class="header__truck">
+<body class="body  body--nojs">
+  <header class="header header--nojs header__truck">
     
-    <div class="container header__container">
-      <a class="header__logo" href="#">
-        <img class="header__logo-img" src="img/header-logo.svg" alt="Truck logo" width="100" height="53">
-      </a>
-      
-      <ul class="header__list">
-        <li class="header__item">
-          <a class="header__link" href="#">Bosh sahifa</a>   
-        </li>
-        <li class="header__item">
-          <a class="header__link" href="#">Haydovchilar uchun</a>
-        </li>
-        <li class="header__item">
-          <a class="header__link" href="#">Biznes uchun</a>
-        </li>
-        <li class="header__item">
-          <a class="header__link" href="#">Chet elga yuk tashish</a>
-        </li>
-      </ul>
-      
-      <form class="form__search" action="https://echo.htmlacademy.ru" method="post">
-        <input class="search__form" type="text" placeholder="Поиск">
-      </form>
-      <a class="header__link-phone" href="tel:+1055">1055</a>
-      <div class="header__buttons">
-        <button class="header__button">
-          uz
-        </button>
+    <div class="container header__container header__bottom">
+      <div class="header__bottom-mobile another">
+        <a class="header__logo" href="#">
+          <img class="header__logo-img" src="img/header-logo.svg" alt="Truck logo" width="100" height="53">
+        </a>
+        
       </div>
-      <a href="#" class="header__link-user">
-        <img src="img/user-img.svg" alt="user" class="header__img-user" width="42" height="42">
-      </a>
+      <div class="header__bottom-lists">
+        
+        <ul class="header__list">
+          <li class="header__item">
+            <a class="header__link" href="#">Bosh sahifa</a>   
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#">Haydovchilar uchun</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#">Biznes uchun</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#">Chet elga yuk tashish</a>
+          </li>
+        </ul>
+      </div>
+      
+      <div class="header__nav-wrapper">
+        <form class="form__search" action="https://echo.htmlacademy.ru" method="post">
+          <input class="search__form" type="text" placeholder="Поиск">
+        </form>
+        <a class="header__link-phone" href="tel:+1055">1055</a>
+        <div class="header__buttons">
+          <button class="header__button">
+            uz
+          </button>
+        </div>
+        <a href="#" class="header__link-user">
+          <img src="img/user-img.svg" alt="user" class="header__img-user" width="42" height="42">
+        </a>
+        <button class="header__button-toggler" type="button" aria-label="toggler button"></button>
+      </div>
     </div>
     
   </header>
@@ -70,7 +77,7 @@
           Nega aynan truck.uz?
         </h3>
         <ul class="question__list">
-          <li class="question__item">
+          <li class="question__item question__item-first">
             <h3 class="question__title">
               Yuklarni kuzatib borish
             </h3>
@@ -79,6 +86,9 @@
               foydalaning yukingiz qayerda
               ekanligini tekshirish uchun.
             </p>
+            <div class="question__box-yellow">
+              <img class="question__box-image-view question__box-image" src="img/view.svg" alt="image">
+            </div>
           </li>
           <li class="question__item">
             <h3 class="question__title">
@@ -89,8 +99,11 @@
               sizga yordam berishga tayyor.
               Istalgan vaqtda 24/7.
             </p>
+            <div class="question__box-yellow">
+              <img class="question__box-image-comfortable question__box-image" src="/img/comfortable.svg" alt="image" width="80" height="50">
+            </div>
           </li>
-          <li class="question__item">
+          <li class="question__item question__item-thirds">
             <h3 class="question__title">
               ishonchlilik va qulaylik
             </h3>
@@ -99,6 +112,10 @@
               ishonchlilik va o'z vaqtida bajarish,
               va biz ularni juda qadrlaymiz.
             </p>
+            <div class="question__box-yellow">
+              <img class="question__box-image-truth question__box-image" src="img/truth.svg" alt="image" width="100" height="80"
+              >
+            </div>
           </li>
         </ul>
       </div>
@@ -110,7 +127,7 @@
           <div class="about__left">
             <img class="about__img" src="img/about.svg" alt="about image">
           </div>
-          <div class="about right">
+          <div class="about__right">
             <h3 class="about__heading">
               Biz haqimizda
             </h3>
@@ -121,54 +138,345 @@
               eng raqobatbardosh va ishonchli xalqlarga bittadan xalat
               AQShning 48 shtatiga xizmat ko'rsatadigan logistika kompaniyalari.
             </p>
+            <img class="about__img-middle" src="img/about.svg" alt="about image">
             <p class="about__text-second">
               Kichik  oilaviy transport kompaniyasi sifatida boshlangan narsa hozirda mavjud
               jihozlangan ko'p xizmatli brokerlik firmasiga aylandi kengga qo'shimcha ravishda 50 ta maxsus yuk mashinalari bilan ishonchli va tajribali sherik doirasi tashuvchilar. Bizning tajribamiz va ishlash standartlarimiz o'z vaqtida, tez va tejamkor transportni sug'urtalash yuk, zarar etkazmasdan.
             </p>
           </div>
         </div>
-
+        
         <ul class="about__list">
+          <div class="about__item-first">
+            <li class="about__item about__item--first">
+              <img class="about__image img-first" src="./img/Group.svg" alt="image" width="120" height="190" />
+              <div class="text">
+                <div class="number__box">
+                  <h5 class="about__number">2340</h5>
+                  <span class="about__yellow">
+                    +
+                  </span>
+                </div>
+                <p class="about__text">tonna yuk yetkazildi</p>
+              </div>
+              <div class="inner"></div>
+            </li>
+            
+            <li class="about__item">
+              <img class="about__image img-second" src="./img/Group (5).svg" alt="image" width="60" height="160" />
+              <div class="text">
+                <div class="number__box">
+                  <h5 class="about__number">230</h5>
+                  <img class="number__tick-first" src="img/tick.svg" alt="image">
+                </div>
+                <p class="about__text">kompaniya xodimlari</p>
+              </div>
+              <div class="inner"></div>
+            </li>
+          </div>
+          
+         <div class="about__item-second">
           <li class="about__item">
-            <img class="img" src="technician.png" alt="" />
+            <img class="about__image img-third" src="./img/Group (3).svg" alt="image" width="150" height="150" />
             <div class="text">
-              <h5 class="about__number">2340+</h5>
-              <p class="about__text">tonna yuk yetkazildi</p>
-            </div>
-            <div class="inner"></div>
-          </li>
-
-          <li class="about__item">
-            <img class="img" src="technician.png" alt="" />
-            <div class="text">
-              <h5 class="about__number">230</h5>
-              <p class="about__text">kompaniya xodimlari</p>
-            </div>
-            <div class="inner"></div>
-          </li>
-
-          <li class="about__item">
-            <img class="img" src="technician.png" alt="" />
-            <div class="text">
-              <h5 class="about__number">10+</h5>
+              <div class="number__box">
+                <h5 class="about__number">10</h5>
+                <span class="about__yellow-sec">
+                  +
+                </span>
+              </div>
               <p class="about__text">davlatlarga xalqaro yuklar</p>
             </div>
             <div class="inner"></div>
           </li>
-
-          <li class="about__item">
-            <img class="img" src="technician.png" alt="" />
+          
+          <li class="about__item about__item-four">
+            <img class="about__image img-fourth" src="./img/Group (4).svg" alt="image" width="100" height="180" />
             <div class="text">
-              <h5 class="about__number">1800</h5>
+              <div class="number__box">
+                <h5 class="about__number">1800</h5>
+                <img class="number__tick" src="img/tick.svg" alt="image">
+              </div>
               <p class="about__text">mamnun mijozlar</p>
             </div>
             <div class="inner"></div>
           </li>
+         </div>
         </ul>
       </div>
     </section>
-  </main>
+    
+    <section class="deliver">
+      <div class="container deliver__container">
+        <h2 class="deliver__heading">
+          biz yuklarni butun o`zbekiston
+          bo`ylab yetkazamiz
+        </h2>
+        <div class="deliver__wrapper">
+          <div class="deliver__line line-blacks"></div>
+          <div class="deliver__line line-blacks"></div>
+          <div class="deliver__line line-blacks"></div>
+          <img src="img/car.svg" alt="car" class="deliver__img">
+          <div class="deliver__circle deliver__circle-first">
+            <div class="deliver__circle-black deliver__circle-black-first"></div>
+          </div>
+          <div class="deliver__line line-red"></div>
+          <div class="deliver__line line-red"></div>
+          <div class="deliver__line line-red"></div>
+          <div class="deliver__circle deliver__circle-second">
+            <div class="deliver__circle-black deliver__circle-black-second"></div>
+          </div>
+          <div class="deliver__line line-third"></div>
+          <div class="deliver__line line-third"></div>
+          <div class="deliver__line line-third"></div>
+          <div class="deliver__circle deliver__circle-third">
+            <div class="deliver__circle-black deliver__circle-black-third"></div>
+          </div>
+          <div class="deliver__line line-fourth"></div>
+          <div class="deliver__line line-fourth"></div>
+          <div class="deliver__line line-fourth"></div>
+          <div class="deliver__circle deliver__circle-four">
+            <div class="deliver__circle-black deliver__circle-black-four"></div>
+          </div>
+          <div class="deliver__line line-fiveth"></div>
+          <div class="deliver__line line-fiveth"></div>
+          <div class="deliver__line line-fiveth"></div>
+          <div class="deliver__circle deliver__circle-five">
+            <div class="deliver__circle-black deliver__circle-black-five"></div>
+          </div>
+          <div class="deliver__line line__sixth"></div>
+          <div class="deliver__line line__sixth"></div>
+          <div class="deliver__line line__sixth"></div>
+          <div class="deliver__line line__sixth"></div>
+        </div>
+        <div class="deliver__cities">
+          <h4 class="deliver__cities-heading cities__fergana">
+            Farg`ona
+          </h4>
+          <h4 class="deliver__cities-heading cities__andijan">
+            Andijon
+          </h4>
+          <h4 class="deliver__cities-heading cities__namangan">
+            Namangan
+          </h4>
+          <h4 class="deliver__cities-heading cities__tashkent">
+            Toshkent
+          </h4>
+          <h4 class="deliver__cities-heading cities__samarqand">
+            Samarqand
+          </h4>
+        </div>
+      </div>
+    </section>
+    
+    <section class="form">
+      <div class="container form__container">
+        <div class="form__left-section">
+          <h2 class="form__heading">
+            Buyurtma berish uchun quyidagi
+            so`rovnomani to`ldiring
+          </h2>
+          <form action="" class="form__section">
+            <div class="form__left">
+              <input class="input__where-first input__form" type="text" name="qayerdan" placeholder="Qayerdan">
+              <input class="input__where-second input__form" type="text" name="qayerga" placeholder="Qayerga">
+              <label for="sa" class="label__time">
+                <input id="date-picker" type="datetime-local" value="2018-06-12T19:30"  class="input__date">
+              </label>
+              
+              <div class="ds">
+                <button type="button" class="select__transport-form">
+                  Transport tanlang
+                </button>
+                
+                
+                <div class="select">
+                  <div class="slider__wrapper">
+                    <div class="buttons-container">
+                      <button type="button" id="left" class="btn btn__left"></button>
+                    </div>
+                    
+                    <div class="carousel">
+                      <button type="button" class="delete__btn"></button>
+                      <div class="image-container" id="imgs">
+                        
+                        <div class="slider">
+                          <p class="slider__about">Lorem ipsum dolor sit amet consipsum dolor sit amet coipsum dolor sit amet coipsum dolor sit amet coectetur adipisicing elit. Neque et earum atque error nobis laudantium accusantium, sin rem.</p>
+                          <img class="form__slider-img"
+                          src="https://images.unsplash.com/photo-1599561046251-bfb9465b4c44?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1492&q=80"
+                          alt="fourth-image"
+                          />
+                          <p class="slider__text">Kamaz</p>
+                        </div>
+                        <div class="slider">
+                          <p class="slider__about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque et earum atque error nobis laudantium accusantium, sin rem.</p>
+                          <img class="form__slider-img"
+                          src="https://images.unsplash.com/photo-1599561046251-bfb9465b4c44?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1492&q=80"
+                          alt="fourth-image"
+                          />
+                          <p class="slider__text">Kamaz</p>
+                        </div>
+                        <div class="slider">
+                          <p class="slider__about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque et earum atque error nobis laudantium accusantium, sin rem.</p>
+                          <img class="form__slider-img"
+                          src="https://images.unsplash.com/photo-1599561046251-bfb9465b4c44?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1492&q=80"
+                          alt="fourth-image"
+                          />
+                          <p class="slider__text">Kamaz</p>
+                        </div>
+                        <div class="slider">
+                          <p class="slider__about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque et earum atque error nobis laudantium accusantium, sin rem.</p>
+                          <img class="form__slider-img"
+                          src="https://images.unsplash.com/photo-1599561046251-bfb9465b4c44?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1492&q=80"
+                          alt="fourth-image"
+                          />
+                          <p class="slider__text">Kamaz</p>
+                        </div>
+                      </div>
+                      
+                      
+                    </div>
+                    <div class="buttons-container">
+                      
+                      <button type="button" id="right" class="btn btn__right"></button>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+            
+            
+            
+            <div class="form__right">
+              <input class="input__type input__form" type="text" name="type" placeholder="Yuk turini kiriting!">
+              <input class="input__tel input__form" type="tel"  name="qayerga" placeholder="+998 (__) - __ - __">
+              
+              <div class="tarif__wrapper">
+                <button type="button" class="form__btn-tarif">
+                  Tarif turi
+                </button>
+                <div class="form__tarif-wrapper">
+                  <p class="tarif__info"></p>
+                </div>
+              </div>
+              
+              <label class="containers form__condition">Shartlarni qabul qilaman
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+            </div>
+            
+            
+            
+          </form>
+        </div>
+        <div class="form__right-section">
+          <div style="position:relative;overflow:hidden;"><a href="https://yandex.uz/maps?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Яндекс.Карты</a><a href="https://yandex.uz/maps/geo/771285475/?ll=71.852592%2C40.481953&utm_medium=mapframe&utm_source=maps&z=11.05" style="color:#eee;font-size:12px;position:absolute;top:14px;">Фергана — Яндекс.Карты</a><iframe src="https://yandex.uz/map-widget/v1/-/CCUa7WQs2B" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+        </div>
+      </section>
+    </main>
+    
+    <footer class="footer">
+      <div class="container footer__container">
+        <div class="footer__first-column">
+          <div class="footer__first-left">
+            <h4 class="footer__first-heading footer__heading">
+              Biz bilan bog`lanish
+            </h4>
+            <p class="footer__address footer__icon icon__location">Farg’ona, Yuksalish 195</p>
+            <div class="footer__support">
+              <span class="footer__support-text footer__icon icon__headphone">
+                Qo’llab quvvatlash markazi: 
+              </span>
+              <a class="footer__support-phone" href="tel:+1055">1055</a>,
+              <a class="footer__support-phone" href="tel:+998335109595">+99833 510-95-95</a>
+            </div>
+            <div class="footer__workingdays">
+              <p class="footer__workingdays-text footer__icon icon__workingdays">
+                Dush - Juma <span class="workingdays-yellow">(9:00 - 17:00)</span> , Shanba <span class="workingdays-yellow">(9:00 - 15:00)</span>
+              </p>
+            </div>
+            <p class="foooter__email footer__icon icon__email">info@track.uz</p>
+          </div>
   
-  <script src="js/main.js"></script>
-</body>
-</html>
+  
+          <div class="footer__first-right">
+            <h4 class="footer__second-heading footer__heading">
+              Menyu
+            </h4>
+            <ul class="footer__list-nav">
+              <li class="footer__item-nav">
+                <a class="footer__link-nav footer__link" href="#">Bosh sahifa</a>   
+              </li>
+              <li class="footer__item-nav">
+                <a class="footer__link-nav footer__link" href="#">Haydovchilar uchun</a>
+              </li>
+              <li class="footer__item-nav">
+                <a class="footer__link-nav footer__link" href="#">Biznes uchun</a>
+              </li>
+              <li class="footer__item-nav">
+                <a class="footer__link-nav footer__link" href="#">Chet elga yuk tashish</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        
+        
+        <div class="footer__second-col">
+          
+          <div class="footer__second-left">
+            <h4 class="footer__second-heading footer__heading">
+              Yordam
+            </h4>
+            <ul class="footer__list-help">
+              <li class="footer__item-help">
+                <a class="footer__link-help footer__link" href="#">Asosiy savollar</a>   
+              </li>
+              <li class="footer__item-help">
+                <a class="footer__link-help footer__link" href="#">Jo`natmalar holati</a>
+              </li>
+              <li class="footer__item-help">
+                <a class="footer__link-help footer__link" href="#">To`lov uslublari</a>
+              </li>
+              <li class="footer__item-help">
+                <a class="footer__link-help footer__link" href="#">Yuk mashinalar turlari</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__second-right">
+            <h4 class="footer__second-heading footer__heading">
+              Ijtimoiy tarmoqlar
+            </h4>
+            <ul class="footer__list-social">
+              <li class="footer__item-social icon__facebook">
+                <a class="footer__link-icon" href="#"><img class="footer__img-icon" src="img/facebook.svg" alt="icon"></a>
+                <a class="footer__link-social footer__link" href="#">@truck.uz</a>   
+              </li>
+              <li class="footer__item-social icon__instagram">
+                <a class="footer__link-icon" href="#"><img class="footer__img-icon" src="img/instagram.svg" alt="icon"></a>
+                <a class="footer__link-social footer__link" href="#">@truck_uz</a>
+              </li>
+              <li class="footer__item-social icon__telegram">
+                <a class="footer__link-icon" href="#"><img class="footer__img-icon" src="img/telegram.svg" alt="icon"></a>
+                <a class="footer__link-social footer__link" href="#">@truck_uz</a>
+              </li>
+              <li class="footer__item-social icon__author">
+                <a class="footer__link-icon" href="#"><img class="footer__img-icon" src="img/author.svg" alt="icon"></a>
+                <a class="footer__link-social footer__link" href="#">2021 - truckuz</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        
+        
+        
+        
+      </div>
+    </footer>
+    
+    <script src="js/main.js"></script>
+  </body>
+  </html>
+  
