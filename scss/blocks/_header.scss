@@ -159,6 +159,10 @@ header {
         width: 100%;
         position: fixed;
     }
+    .header__item {
+        padding-left: 0;
+        padding-right: 0;
+    }
     .header--open .header__bottom-lists {
         display: flex;
         flex-direction: column;
