@@ -624,11 +624,13 @@ header {
     display: none;
   }
   .header--open .header__button-toggler {
+    top: 40px;
+    right: 15px;
     background-position: right center;
   }
   .header--open .header__nav-wrapper {
-    padding-top: 60px;
-    max-width: 900px;
+    padding-top: 50px;
+    max-width: 1000px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
