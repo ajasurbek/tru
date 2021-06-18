@@ -404,10 +404,6 @@ input[type="datetime-local"]::-webkit-calendar-picker-indicator {
         margin-right: auto;
         margin-left: auto;
     }
-    .form__container {
-        margin: 0;
-        padding: 0;
-    }
      .form__left {
         margin: 0;
     }
@@ -490,4 +486,7 @@ input[type="datetime-local"]::-webkit-calendar-picker-indicator {
         font-size: 22px;
         line-height: 34px;
         width: 295px;
-    } }
+        margin-left: 0;
+        margin-right: 0;
+    } 
+}
