@@ -2672,7 +2672,16 @@ input[type="datetime-local"]::-webkit-calendar-picker-indicator {
   .form__left {
     margin: 0;
   }
+  .form__heading {
+    text-align: center;
+  }
+  .form__right {
+    margin-left: auto;
+    margin-right: auto;
+  }
   .form__left {
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 50px;
   }
 }
@@ -2742,7 +2751,7 @@ input[type="datetime-local"]::-webkit-calendar-picker-indicator {
 
 @media screen and (max-width: 345px) {
   .form__heading {
-    font-size: 24px;
+    font-size: 22px;
     line-height: 34px;
     width: 295px;
   }
