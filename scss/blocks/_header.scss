@@ -33,6 +33,10 @@ header {
     transition: 0.3s ease;
     color: #EECE21;
 }
+.active {
+    transition: 0.3s ease;
+    color: #EECE21;
+}
 .search__form {
     width: 250px;
     height: 42px;
@@ -41,6 +45,13 @@ header {
     outline: none;
     border: none;
     border-radius: 21px;
+}
+
+.search__form {
+    background-image: url("../../img/search.svg");
+    background-position:  left calc(2px + 10px) center;
+    background-repeat: no-repeat;
+    background-size: 18px 18px;
 }
 .header__link-phone {
     text-decoration: none;
@@ -56,8 +67,7 @@ header {
 .header__button {
     border: none;
     outline: none;
-    width: 40px;
-    height: 40px;
+    padding: 11.8px 12.1px;
     border-radius: 50%;
     background: #EECE21;
     color: #1E2E3D;

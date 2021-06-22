@@ -19,13 +19,15 @@
 .footer__icon::before {
     content: "";
     width: 19px;
-    height: 15px;
+    height: 10px;
     margin-left: 28px;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
 }
+
 .icon__location {
+    background-size: 20px 20px;
     background-repeat: no-repeat;
     background-image: url("../../img/location.svg");
 }
@@ -190,3 +192,4 @@
         padding-right: 22px;
     }
 }
+

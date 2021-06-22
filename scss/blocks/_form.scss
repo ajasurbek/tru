@@ -1,8 +1,8 @@
-.form {
-    padding-top: 110px;
-    padding-bottom: 110px;
-    background-color: #fff;
-}
+// .form {
+//     padding-top: 110px;
+//     padding-bottom: 110px;
+//     background-color: #fff;
+// }
 .form__container {
     display: flex;
 }
@@ -12,8 +12,9 @@
 .form__heading {
     font-style: normal;
     font-weight: bold;
-    font-size: 40px;
-    line-height: 50px;
+    margin-bottom: 60px;
+    font-size: 37px;
+    line-height: 45px;
     text-transform: uppercase;
     width: 700px;
     color: #000000;
@@ -44,24 +45,68 @@
     border-radius: 18px;
     position: relative;
     padding-left: 40px;
+    padding-right: 35px;
     padding-top: 20px;
     padding-bottom: 20px;
 }
+// ================
+.checkbox-label {
+    margin-top: 45px;
+}
+ .check_form-input {
+	cursor: pointer;
+}
+.check_form-input {
+	margin: 0;
+	max-width: 100%;
+	height: auto;	
+	font-family: inherit;
+	font-size: inherit;
+	line-height: inherit;
+	color: #1b1b1b;
+	vertical-align: middle;
+	-webkit-appearance: none;
+	   -moz-appearance: none;
+	   		appearance: none;
+	border: .08em solid #4F4F4F;
+}
 
+/* End reset for the demo */
+
+
+.check_form-input[type="checkbox"],
+.check_form-input[type="radio"] {
+	width: 20px; height: 20px;
+}	
+.check_form-input[type="radio"] {	
+	border-radius: 50%;
+}
+.check_form-input[type="checkbox"]:checked,
+.check_form-input[type="radio"]:checked {
+	background-image: url("data:image/svg+xml,%3Csvg height='32' width='32' viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='m11.4 21.5-5.93-5.93-2.01 2.01 7.94 7.94 17.1-17.1-2.01-2.01z' fill='%23fff'/%3E%3C/svg%3E");
+	background-size: 80% 80%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: #283745;
+	border-color: #283745;
+}
+
+// ================
 
 
 .input__where-first {
-    background-image: url("../../img/location-form.svg"),  url("../../img/loc-from.svg");
-    background-position:  left calc(2px + 9px) center, right calc(2px + 9px) center;
+    background-image: url("../../img/location-form.svg");
+    background-position:  left calc(2px + 9px) center;
     background-repeat: no-repeat;
     background-size: 20px 20px;
-    margin-bottom: 34px;
+    margin-bottom: 8px;
 }
 .input__where-second {
     background-image: url("../../img/flag-form.svg");
     background-position:  left calc(2px + 9px) center;
     background-repeat: no-repeat;
     background-size: 20px 20px;
+    margin-top: 8px;
 }
 .input__type {
     margin-bottom: 34px;
@@ -145,7 +190,7 @@ input[type="datetime-local"]::-webkit-calendar-picker-indicator {
 
 // ==============================
 
-.select {
+.select_a {
     padding-left: 5px;
     padding-right: 5px;  
     display: none;
@@ -230,22 +275,23 @@ input[type="datetime-local"]::-webkit-calendar-picker-indicator {
 
 .form__btn-tarif {
     display: inline-block;
-    border: none;
     margin-top: 34px;
-    outline: none;
-    background:  #152331;
-    color: white;
     border-radius: 18px 18px 18px 18px;
-    width: 350px;
-    z-index: 56;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 25px;
-    color: #FFFFFF;
-    height: 35px;
-    padding-top: 14px;
-    padding-bottom: 26px;
+
+
+
+    background-color: #152331;
+    border: none;
+    outline: none;
+    color: white;
+    height: 40px;
+    width: 350px;   
+    text-align: center;
+    cursor: pointer;
 }
 .tarif__wrapper {
     position: relative;
@@ -270,7 +316,7 @@ input[type="datetime-local"]::-webkit-calendar-picker-indicator {
     border-radius: 18px 18px 0px 0px;
 }
 .form__condition {
-    margin-top: 50px;
+    margin-top: 45px;
     font-style: normal;
     font-weight: 500;
     font-size: 20.2993px;
