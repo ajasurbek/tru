@@ -1,3 +1,15 @@
+
+
+var body = document.body
+var header = document.querySelector('.header');
+var btn = document.querySelector('.header__button-toggler');
+btn.addEventListener('click', () => {
+    header.classList.toggle('header--open');
+    btn.classList.toggle('btn__fixed')
+});
+body.classList.remove("body--nojs")
+header.classList.remove("header--nojs")
+
 let date =  new Date();
 let year = date.getFullYear()
 let month = date.getMonth()+1
