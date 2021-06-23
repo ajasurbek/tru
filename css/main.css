@@ -6160,7 +6160,6 @@ label:hover:before {
   .block_pickapp_info .block_pickapp_info_bottom {
     width: 325px;
     height: 1px;
-    top: 0;
   }
   .bag-filter_block2 {
     -webkit-box-orient: vertical;
@@ -6354,7 +6353,7 @@ label:hover:before {
   }
   .bag-map_instruction-container {
     padding-top: 60px;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
   }
   .map div {
     width: 300px;
