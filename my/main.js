@@ -11,15 +11,6 @@ header.classList.remove("header--nojs")
 
 
 
-let date =  new Date();
-let year = date.getFullYear()
-let month = date.getMonth()+1
-let hour = date.getHours()
-let minute = date.getMinutes()
-let todayDate = String(date.getDate()).padStart(2,'0')
-let datePattern = year +'-'+ '0' + month   +'-'+ todayDate + 'T' + hour + ':' + minute
-document.querySelector('.input__date').value = datePattern
-
 
 
 
