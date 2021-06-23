@@ -1,5 +1,5 @@
-var BASE_URL = "http://labbay-delivery.uz/logistika/web/"
-var IMG_URL = "http://www.labbay-delivery.uz/logistika/admin/"
+var BASE_URL = "https://labbay-delivery.uz/logistika/web/"
+var IMG_URL = "https://www.labbay-delivery.uz/logistika/admin/"
 
 async function getTariff() {
     let res = await fetch(BASE_URL + 'get_transport.php', {method: "POST"})
