@@ -3781,6 +3781,10 @@ label:hover:before {
   .bag-form {
     margin-left: 20px;
   }
+  .bag-map_instruction-container {
+    padding-top: 60px;
+    padding-bottom: 10px;
+  }
 }
 @media screen and (max-width: 475px) {
   .form__heading {
@@ -3800,6 +3804,10 @@ label:hover:before {
     height: 500px;
     min-height: 500px;
   }
+  .bag-map_instruction-container {
+    padding-top: 50px;
+    padding-bottom: 10px;
+  }
 }
 
 @media screen and (max-width: 415px) {
@@ -3807,7 +3815,7 @@ label:hover:before {
     width: 300px;
   }
   .bag-map_instruction-container {
-    padding-top: 60px;
+    padding-top: 50px;
     padding-bottom: 10px;
   }
   .map div {
