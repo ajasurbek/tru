@@ -12,7 +12,7 @@
 .form__heading {
     font-style: normal;
     font-weight: bold;
-    margin-bottom: 60px;
+    margin-bottom: 45px;
     font-size: 37px;
     line-height: 45px;
     text-transform: uppercase;
@@ -38,7 +38,7 @@
     background: #F1F1F1;
     border: none;
     outline: none;
-    width: 350px;
+    width: 325px;
     height: 35px;
     color: linear-gradient(90deg, #283745 0%, #152331 100%);
     border: 1px solid transparent;
@@ -99,17 +99,14 @@
     background-position:  left calc(2px + 9px) center;
     background-repeat: no-repeat;
     background-size: 20px 20px;
-    margin-bottom: 8px;
 }
 .input__where-second {
     background-image: url("../../img/flag-form.svg");
     background-position:  left calc(2px + 9px) center;
     background-repeat: no-repeat;
     background-size: 20px 20px;
-    margin-top: 8px;
 }
 .input__type {
-    margin-bottom: 34px;
     background-image: url("../../img/type-form.svg");
     background-position:  left calc(2px + 9px) center;
     background-repeat: no-repeat;
@@ -152,7 +149,7 @@
     background:  #152331;
     color: white;
     border-radius: 18px;
-    width: 350px;
+    width: 325px;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
