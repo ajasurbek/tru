@@ -3794,7 +3794,7 @@ label:hover:before {
     color: #000000;
   }
   .bag-form {
-    margin-left: 20px;
+    margin-left: 15px;
   }
   .map {
     width: 350px;
@@ -3823,16 +3823,10 @@ label:hover:before {
     height: 400px;
     min-height: 400px;
   }
-  .bag-form {
-    margin-left: 15px;
-  }
 }
 @media screen and (max-width: 375px) {
   .bag-change_btn {
     margin-left: 245px;
-  }
-  .bag-form {
-    margin-left: 10px;
   }
   .bag__select-transport {
     width: 280px; 
