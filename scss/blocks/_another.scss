@@ -784,7 +784,7 @@ input[type="submit"] {
 }
 
 .filter_block3_left .select_timeee.active1 {
-  width: 400px;
+  width: 325px;
   padding-left: 60px;
   z-index: 9999;
 }
@@ -1166,7 +1166,7 @@ input[type="submit"] {
 .open_pickup_menu {
   opacity: 1 !important;
   visibility: visible !important;
-  width: 400px !important;
+  width: 325px !important;
 }
 
 .close_pickup_menu {
@@ -3729,13 +3729,14 @@ label:hover:before {
     transform: rotate(90deg);
   }
   .filter_block3 .block_select_pickap {
-    top: 30px;
+    top: 40px;
+    left: 172.95px;
   }
   .select_date_block {
     top: 40px;
   }
 }
-@media screen and (max-width: 703px) {
+@media screen and (max-width: 721px) {
 .form__heading {
   width: auto;
   font-size: 24px;
@@ -3850,6 +3851,19 @@ label:hover:before {
     width: 280px;
     height: 370px;
     min-height: 370px;
+  }
+  .filter_block3_left .select_timeee.active1 {
+    width: 280px;
+    padding-left: 60px;
+    z-index: 9999;
+  }
+  .open_pickup_menu {
+    opacity: 1 !important;
+    visibility: visible !important;
+    width: 280px !important;
+  }
+  .select_timeee2 {
+width: 280px;
   }
 }
 @media screen and (max-width: 335px) {
