@@ -1,3 +1,16 @@
+var body = document.body
+var header = document.querySelector('.header');
+var btn = document.querySelector('.header__button-toggler');
+btn.addEventListener('click', () => {
+    header.classList.toggle('header--open');
+    btn.classList.toggle('btn__fixed')
+});
+body.classList.remove("body--nojs")
+header.classList.remove("header--nojs")
+
+
+
+
 let date =  new Date();
 let year = date.getFullYear()
 let month = date.getMonth()+1
@@ -6,6 +19,12 @@ let minute = date.getMinutes()
 let todayDate = String(date.getDate()).padStart(2,'0')
 let datePattern = year +'-'+ '0' + month   +'-'+ todayDate + 'T' + hour + ':' + minute
 document.querySelector('.input__date').value = datePattern
+
+
+
+
+
+
 
 
 let elBtnDel = document.querySelector('.delete__btn') 
@@ -26,6 +45,9 @@ elBtnTarif.addEventListener('click', () => {
     elBtnTarif.classList.toggle('btn__radius');
     elTarifWrapper.classList.toggle('tarif__active');
 });
+
+
+// =======================================
 
 // ===================================
 let sizes = [25, 30, 35];
@@ -97,12 +119,3 @@ leftBtn.addEventListener('click', () => {
 // ======================================
 
 
-var body = document.body
-var header = document.querySelector('.header');
-var btn = document.querySelector('.header__button-toggler');
-btn.addEventListener('click', () => {
-    header.classList.toggle('header--open');
-    btn.classList.toggle('btn__fixed')
-});
-body.classList.remove("body--nojs")
-header.classList.remove("header--nojs")

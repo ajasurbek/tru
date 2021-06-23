@@ -2,8 +2,8 @@ $(document).ready(function () {
 
 
     $('body').on('click', function (event) {
-        if (event.target.className == "filterr" || event.target.className == "inside_filter" || event.target.className == "filter_block4" ||
-            event.target.className == "filter_calc_block") {
+        if (event.target.className == "bag-filterr" || event.target.className == "bag-inside_filter" || event.target.className == "filter_block4" ||
+            event.target.className == "bag-filter_calc_block") {
             $('.select_date_block2').slideUp();
         }
     })
@@ -136,9 +136,9 @@ $(document).ready(function () {
         $('.timeee').val(minute + '' + hour);
     });
     $('.svg').click(function () {
-        var adress1 = $('.adresss1').val();
+        var adress1 = $('.bag-adresss1').val();
         var adress2 = $('.adresss2').val();
-        $('.adresss1').val(adress2);
+        $('.bag-adresss1').val(adress2);
         $('.adresss2').val(adress1);
         changedOrig()
 
@@ -179,7 +179,7 @@ $(document).ready(function () {
 
     $('.pojelaniya .select_timeee2').click(function () {
         $('.pojelaniya .select_timeee2').toggleClass('active1');
-        $('.select_date_block2').slideToggle();
+        $('.select_date_block2').slideToggle('');
     });
 
     // **********************************************************************************************************
@@ -189,7 +189,7 @@ $(document).ready(function () {
     $('.filter_info3').click(function (event) {
         // alert('.qwewqe');
         var marshrut = $('.ymaps-2-1-72-route-panel-input__input').val();
-        var adress1 = $('.adresss1').val();
+        var adress1 = $('.bag-adresss1').val();
         var adress2 = $('.adresss2').val();
         $('.kuda').val(adress1);
         $('.otkuda').val(adress2);
@@ -197,7 +197,7 @@ $(document).ready(function () {
 
 
     $('body').click(function (e) {
-        if (e.target.className == 'filterr' || e.target.className == 'inside_filter') {
+        if (e.target.className == 'bag-filterr' || e.target.className == 'bag-inside_filter') {
             $('.select_date_block').slideUp();
         }
     });
@@ -645,6 +645,4 @@ $('.text_tabs button').click(function (event) {
 
 
 });
-
-// ================================
 
